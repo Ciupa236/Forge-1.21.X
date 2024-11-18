@@ -19,6 +19,8 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> RUBY = ITEMS.register("ruby",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> BABY_OIL = ITEMS.register("baby_oil",
+            () -> new Item(new Item.Properties()));
 
 
 
