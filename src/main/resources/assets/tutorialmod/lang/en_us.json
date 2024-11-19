@@ -3,5 +3,8 @@
   "item.tutorialmod.raw_alexandrite": "Raw Alexandrite",
   "item.tutorialmod.cup": "Cup",
   "item.tutorialmod.ruby": "Ruby",
-  "item.tutorialmod.baby_oil": "Baby Oil"
+  "item.tutorialmod.baby_oil": "Baby Oil",
+
+  "block.tutorialmod.alexandrite_block": "Alexandrite Block",
+  "block.tutorialmod.raw_alexandrite_block": "Raw Alexandrite Block"
 }
