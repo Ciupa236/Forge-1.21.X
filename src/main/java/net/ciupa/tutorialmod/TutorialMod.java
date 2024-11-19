@@ -63,6 +63,9 @@ public class TutorialMod {
         }
         if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
             event.accept(ModBlocks.ALEXANDRITE_BLOCK);
+            event.accept(ModBlocks.RUBY_BLOCK);
+        }
+        if(event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
             event.accept(ModBlocks.RAW_ALEXANDRITE_BLOCK);
         }
     }

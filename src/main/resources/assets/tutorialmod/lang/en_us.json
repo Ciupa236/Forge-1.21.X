@@ -5,6 +5,7 @@
   "item.tutorialmod.ruby": "Ruby",
   "item.tutorialmod.baby_oil": "Baby Oil",
 
-  "block.tutorialmod.alexandrite_block": "Alexandrite Block",
-  "block.tutorialmod.raw_alexandrite_block": "Raw Alexandrite Block"
+  "block.tutorialmod.alexandrite_block": "Block of Alexandrite",
+  "block.tutorialmod.raw_alexandrite_block": "Block of Raw Alexandrite",
+  "block.tutorialmod.ruby_block": "Block of Ruby"
 }
