@@ -1,6 +1,7 @@
 package net.ciupa.tutorialmod.item;
 
 import net.ciupa.tutorialmod.TutorialMod;
+import net.ciupa.tutorialmod.item.custom.ChiselItem;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -21,6 +22,8 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> BABY_OIL = ITEMS.register("baby_oil",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> CHISEL = ITEMS.register("chisel",
+            () -> new ChiselItem(new Item.Properties().durability(32)));
 
 
 

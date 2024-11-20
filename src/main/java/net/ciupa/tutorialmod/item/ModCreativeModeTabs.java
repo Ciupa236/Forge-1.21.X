@@ -20,6 +20,7 @@ public class ModCreativeModeTabs {
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.ALEXANDRITE.get());
                         output.accept(ModItems.RAW_ALEXANDRITE.get());
+                        output.accept(ModItems.CHISEL.get());
 
                     }).build());
 
@@ -28,8 +29,10 @@ public class ModCreativeModeTabs {
                     .withTabsBefore(ALEXANDRITE_ITEMS_TAB.getId())
                     .title(Component.translatable("creativetab.tutorialmod.alexandrite_blocks"))
                     .displayItems((itemDisplayParameters, output) -> {
-                        output.accept(ModBlocks.ALEXANDRITE_BLOCK.get());
+                        output.accept(ModBlocks.ALEXANDRITE_ORE.get());
+                        output.accept(ModBlocks.ALEXANDRITE_DEEPSLATE_ORE.get());
                         output.accept(ModBlocks.RAW_ALEXANDRITE_BLOCK.get());
+                        output.accept(ModBlocks.ALEXANDRITE_BLOCK.get());
 
                     }).build());
 
@@ -38,6 +41,8 @@ public class ModCreativeModeTabs {
                     .withTabsBefore(ALEXANDRITE_BLOCKS_TAB.getId())
                     .title(Component.translatable("creativetab.tutorialmod.misc_items_and_blocks"))
                     .displayItems((itemDisplayParameters, output) -> {
+                        output.accept(ModBlocks.RUBY_ORE.get());
+                        output.accept(ModBlocks.RUBY_DEEPSLATE_ORE.get());
                         output.accept(ModBlocks.RUBY_BLOCK.get());
                         output.accept(ModItems.RUBY.get());
                         output.accept(ModItems.CUP.get());
