@@ -50,6 +50,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.BABY_OIL.get());
                         output.accept(ModItems.KOHLRABI.get());
                         output.accept(ModItems.DOG_TREAT.get());
+                        output.accept(ModItems.AURORA_ASHES.get());
 
                     }).build());
 

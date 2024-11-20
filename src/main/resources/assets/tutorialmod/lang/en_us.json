@@ -8,6 +8,7 @@
   "item.tutorialmod.chisel": "Chisel",
   "item.tutorialmod.kohlrabi": "Kohlrabi",
   "item.tutorialmod.dog_treat": "Dog Treat",
+  "item.tutorialmod.aurora_ashes": "Aurora Ashes",
 
   "block.tutorialmod.alexandrite_block": "Block of Alexandrite",
   "block.tutorialmod.raw_alexandrite_block": "Block of Raw Alexandrite",
@@ -21,5 +22,15 @@
 
   "creativetab.tutorialmod.alexandrite_items": "Alexandrite Items",
   "creativetab.tutorialmod.alexandrite_blocks": "Alexandrite Blocks",
-  "creativetab.tutorialmod.misc_items_and_blocks": "Misc Items And Blocks"
+  "creativetab.tutorialmod.misc_items_and_blocks": "Misc Items And Blocks",
+
+  "tooltip.tutorialmod.magic_block": "Press §eShift§r for more information",
+  "tooltip.tutorialmod.magic_block.shift_down": "This block is quite §9MAGICAL§r",
+  "tooltip.tutorialmod.chisel": "Press §eShift§r for more information",
+  "tooltip.tutorialmod.chisel.shift_down": "This item changes certain blocks",
+  "tooltip.tutorialmod.kohlrabi": "Press §eShift§r for more information",
+  "tooltip.tutorialmod.kohlrabi.shift_down1": "This tastes GREAT!",
+  "tooltip.tutorialmod.kohlrabi.shift_down2": "Consuming it has a chance to give Invisibility for 20 seconds",
+  "tooltip.tutorialmod.dog_treat": "Press §eShift§r for more information",
+  "tooltip.tutorialmod.dog_treat.shift_down": "Consuming it gives Speed II for 30 seconds and Regeneration II for 15 seconds"
 }
