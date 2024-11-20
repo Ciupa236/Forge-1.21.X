@@ -4,7 +4,10 @@
   "item.tutorialmod.cup": "Cup",
   "item.tutorialmod.ruby": "Ruby",
   "item.tutorialmod.baby_oil": "Baby Oil",
+
   "item.tutorialmod.chisel": "Chisel",
+  "item.tutorialmod.kohlrabi": "Kohlrabi",
+  "item.tutorialmod.dog_treat": "Dog Treat",
 
   "block.tutorialmod.alexandrite_block": "Block of Alexandrite",
   "block.tutorialmod.raw_alexandrite_block": "Block of Raw Alexandrite",
@@ -13,6 +16,8 @@
   "block.tutorialmod.ruby_block": "Block of Ruby",
   "block.tutorialmod.ruby_ore": "Ruby Ore",
   "block.tutorialmod.ruby_deepslate_ore": "Ruby Deepslate Ore",
+
+  "block.tutorialmod.magic_block": "Magic Block",
 
   "creativetab.tutorialmod.alexandrite_items": "Alexandrite Items",
   "creativetab.tutorialmod.alexandrite_blocks": "Alexandrite Blocks",

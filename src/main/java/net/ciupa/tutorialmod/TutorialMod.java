@@ -57,6 +57,8 @@ public class TutorialMod {
         }
         if(event.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
             event.accept(ModItems.CUP);
+            event.accept(ModItems.KOHLRABI);
+            event.accept(ModItems.DOG_TREAT);
         }
         if(event.getTabKey() == CreativeModeTabs.OP_BLOCKS) {
             event.accept(ModItems.BABY_OIL);
@@ -71,6 +73,9 @@ public class TutorialMod {
         }
         if(event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
             event.accept(ModBlocks.RAW_ALEXANDRITE_BLOCK);
+        }
+        if(event.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {
+            event.accept(ModBlocks.MAGIC_BLOCK);
         }
     }
 

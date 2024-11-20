@@ -24,7 +24,10 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> CHISEL = ITEMS.register("chisel",
             () -> new ChiselItem(new Item.Properties().durability(32)));
-
+    public static final RegistryObject<Item> KOHLRABI = ITEMS.register("kohlrabi",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.KOHLRABI)));
+    public static final RegistryObject<Item> DOG_TREAT = ITEMS.register("dog_treat",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.DOG_TREAT)));
 
 
     public static void register(IEventBus eventBus) {

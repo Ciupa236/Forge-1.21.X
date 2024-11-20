@@ -45,8 +45,11 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.RUBY_DEEPSLATE_ORE.get());
                         output.accept(ModBlocks.RUBY_BLOCK.get());
                         output.accept(ModItems.RUBY.get());
+                        output.accept(ModBlocks.MAGIC_BLOCK.get());
                         output.accept(ModItems.CUP.get());
                         output.accept(ModItems.BABY_OIL.get());
+                        output.accept(ModItems.KOHLRABI.get());
+                        output.accept(ModItems.DOG_TREAT.get());
 
                     }).build());
 
