@@ -1,6 +1,7 @@
 package net.ciupa.tutorialmod.block.custom;
 
 import net.ciupa.tutorialmod.item.ModItems;
+import net.ciupa.tutorialmod.util.ModTags;
 import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.core.BlockPos;
 import net.minecraft.network.chat.Component;
@@ -38,7 +39,7 @@ public class MagicBlock extends Block {
     @Override
     public void stepOn(Level pLevel, BlockPos pPos, BlockState pState, Entity pEntity) {
         if(pEntity instanceof ItemEntity itemEntity) {
-            if(itemEntity.getItem().getItem() == ModItems.RAW_ALEXANDRITE.get()) {
+            if(isValidItem(itemEntity.getItem())) {
                 itemEntity.setItem(new ItemStack(Items.DIAMOND, itemEntity.getItem().getCount()));
             }
 
@@ -48,6 +49,10 @@ public class MagicBlock extends Block {
         }
 
         super.stepOn(pLevel, pPos, pState, pEntity);
+    }
+
+    private boolean isValidItem(ItemStack item) {
+        return item.is(ModTags.Items.TRANSFORMABLE_ITEM);
     }
 
     @Override
