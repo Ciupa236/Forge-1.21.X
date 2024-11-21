@@ -1,0 +1,9 @@
+// 1.21	2024-11-21T20:44:06.3820185	Loot Tables
+082d4a4dfab54d4b7c02bf12577180f310c2d578 data/tutorialmod/loot_table/blocks/alexandrite_block.json
+a7d95c83f6e60418bdb656f076b9d0577d65c26f data/tutorialmod/loot_table/blocks/alexandrite_deepslate_ore.json
+bdd7a2e30367770ec0a2a55c561c365b9b8c5159 data/tutorialmod/loot_table/blocks/alexandrite_ore.json
+8cadd73280b5040d1e510cad246834ca39b6b62f data/tutorialmod/loot_table/blocks/magic_block.json
+b019cac2fb4f4c4c0aca6b3a0ae079a8e6d74f56 data/tutorialmod/loot_table/blocks/raw_alexandrite_block.json
+e0d215bbde990fd2f6b925b06c967165dcb8f8df data/tutorialmod/loot_table/blocks/ruby_block.json
+7302872a6edb9e8424fb95e02b7c3663b8b60738 data/tutorialmod/loot_table/blocks/ruby_deepslate_ore.json
+591f04916d03640bfac7fc7cfe4f2ae4abe027e8 data/tutorialmod/loot_table/blocks/ruby_ore.json

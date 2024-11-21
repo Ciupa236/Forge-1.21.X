@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "minecraft:bone"
+    },
+    "P": {
+      "item": "minecraft:porkchop"
+    },
+    "W": {
+      "item": "minecraft:wheat"
+    }
+  },
+  "pattern": [
+    " P ",
+    "WBW",
+    " P "
+  ],
+  "result": {
+    "count": 1,
+    "id": "tutorialmod:dog_treat"
+  }
+}
