@@ -70,12 +70,22 @@ public class TutorialMod {
         if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
             event.accept(ModBlocks.ALEXANDRITE_BLOCK);
             event.accept(ModBlocks.RUBY_BLOCK);
+            event.accept(ModBlocks.ALEXANDRITE_STAIRS);
+            event.accept(ModBlocks.ALEXANDRITE_SLAB);
+            event.accept(ModBlocks.ALEXANDRITE_PRESSURE_PLATE);
+            event.accept(ModBlocks.ALEXANDRITE_BUTTON);
+            event.accept(ModBlocks.ALEXANDRITE_FENCE);
+            event.accept(ModBlocks.ALEXANDRITE_FENCE_GATE);
+            event.accept(ModBlocks.ALEXANDRITE_WALL);
+            event.accept(ModBlocks.ALEXANDRITE_DOOR);
+            event.accept(ModBlocks.ALEXANDRITE_TRAPDOOR);
         }
         if(event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
             event.accept(ModBlocks.RAW_ALEXANDRITE_BLOCK);
         }
         if(event.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {
             event.accept(ModBlocks.MAGIC_BLOCK);
+            event.accept(ModBlocks.ALEXANDRITE_LAMP);
         }
     }
 

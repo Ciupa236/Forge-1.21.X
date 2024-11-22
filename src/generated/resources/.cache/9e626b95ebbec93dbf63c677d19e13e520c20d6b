@@ -1,4 +1,7 @@
-// 1.21	2024-11-21T21:22:00.2460722	Tags for minecraft:block mod id tutorialmod
+// 1.21	2024-11-22T19:13:36.907495	Tags for minecraft:block mod id tutorialmod
+7040c1554c67074e06991cf7ea99e691acfb8ddc data/minecraft/tags/block/fences.json
+8f61b67394cb2303f2111446266a199eeff13c4d data/minecraft/tags/block/fence_gates.json
 ae788b33f0b04cf17ca0b4da13817bc7e8cb5848 data/minecraft/tags/block/mineable/pickaxe.json
 53aff6f41ccc9e2f3883093c337c32cb3f2521b6 data/minecraft/tags/block/needs_diamond_tool.json
 0dce0af37f0d78a28da4581d372a05a7218f04b8 data/minecraft/tags/block/needs_iron_tool.json
+e6dfaa2212b26282ddb31293aef983be64e2c864 data/minecraft/tags/block/walls.json
