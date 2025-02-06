@@ -66,6 +66,7 @@ public class TutorialMod {
         if(event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
             event.accept(ModItems.BABY_OIL);
             event.accept(ModItems.CHISEL);
+            event.accept(ModItems.GEM_REJUVENATOR);
         }
         if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
             event.accept(ModBlocks.ALEXANDRITE_BLOCK);
