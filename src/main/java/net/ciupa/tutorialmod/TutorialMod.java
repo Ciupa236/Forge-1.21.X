@@ -96,6 +96,11 @@ public class TutorialMod {
         if(event.getTabKey() == CreativeModeTabs.COMBAT) {
             event.accept(ModItems.ALEXANDRITE_SWORD);
             event.accept(ModItems.GEM_REJUVENATOR);
+            event.accept(ModItems.ALEXANDRITE_HELMET.get());
+            event.accept(ModItems.ALEXANDRITE_CHESTPLATE.get());
+            event.accept(ModItems.ALEXANDRITE_LEGGINGS.get());
+            event.accept(ModItems.ALEXANDRITE_BOOTS.get());
+
         }
     }
 
