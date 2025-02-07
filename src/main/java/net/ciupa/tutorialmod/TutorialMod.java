@@ -66,6 +66,10 @@ public class TutorialMod {
         if(event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
             event.accept(ModItems.BABY_OIL);
             event.accept(ModItems.CHISEL);
+            event.accept(ModItems.ALEXANDRITE_PICKAXE);
+            event.accept(ModItems.ALEXANDRITE_AXE);
+            event.accept(ModItems.ALEXANDRITE_SHOVEL);
+            event.accept(ModItems.ALEXANDRITE_HOE);
             event.accept(ModItems.GEM_REJUVENATOR);
         }
         if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
@@ -87,6 +91,10 @@ public class TutorialMod {
         if(event.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {
             event.accept(ModBlocks.MAGIC_BLOCK);
             event.accept(ModBlocks.ALEXANDRITE_LAMP);
+        }
+        if(event.getTabKey() == CreativeModeTabs.COMBAT) {
+            event.accept(ModItems.ALEXANDRITE_SWORD);
+            event.accept(ModItems.GEM_REJUVENATOR);
         }
     }
 
