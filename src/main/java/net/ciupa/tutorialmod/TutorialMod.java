@@ -54,6 +54,7 @@ public class TutorialMod {
             event.accept(ModItems.ALEXANDRITE);
             event.accept(ModItems.RAW_ALEXANDRITE);
             event.accept(ModItems.RUBY);
+            event.accept(ModItems.KAUPEN_SMITHING_TEMPLATE);
         }
         if(event.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
             event.accept(ModItems.CUP);
@@ -100,6 +101,7 @@ public class TutorialMod {
             event.accept(ModItems.ALEXANDRITE_CHESTPLATE.get());
             event.accept(ModItems.ALEXANDRITE_LEGGINGS.get());
             event.accept(ModItems.ALEXANDRITE_BOOTS.get());
+            event.accept(ModItems.ALEXANDRITE_HORSE_ARMOR.get());
 
         }
     }

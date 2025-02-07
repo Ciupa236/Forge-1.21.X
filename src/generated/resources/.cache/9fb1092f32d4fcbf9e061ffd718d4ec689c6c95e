@@ -1,4 +1,4 @@
-// 1.21	2024-11-22T19:13:36.9064933	Recipes
+// 1.21	2025-02-07T22:35:39.110675	Recipes
 91a1b0c443bceae33c3283d52470dc8008f27640 data/tutorialmod/advancement/recipes/building_blocks/alexandrite_slab.json
 09362c8a87bacae83d690d6006a61a049f69514d data/tutorialmod/advancement/recipes/building_blocks/alexandrite_stairs.json
 4b42a990260ae614514fc37a4503dd24d0e2b3ec data/tutorialmod/advancement/recipes/building_blocks/alexandrite_wall.json
@@ -14,6 +14,7 @@ a4fde7cf80ae53b76180e00ab54c4c27d8e6a5e1 data/tutorialmod/advancement/recipes/mi
 70839b0f9a2998d6de871cee56a3a4ae04eec51d data/tutorialmod/advancement/recipes/misc/alexandrite_from_smelting_raw_alexandrite.json
 714accc5d1d6a683a8f4be339291dbf6f1cc4563 data/tutorialmod/advancement/recipes/misc/cup.json
 6571f0cdb1197c2d4fb15e3e628354605c063432 data/tutorialmod/advancement/recipes/misc/dog_treat.json
+47a7c4ad671425a4c3ad4ced463e5ec11f22b36a data/tutorialmod/advancement/recipes/misc/kaupen.json
 84f2862a18dadd7a2f022a0c01666156663cf7d7 data/tutorialmod/advancement/recipes/misc/raw_alexandrite.json
 5f295c449d085be1a912270e89034d8d76729ead data/tutorialmod/advancement/recipes/misc/raw_alexandrite_block.json
 0afc7532130820f51cec293c4e79c58a51a8622b data/tutorialmod/advancement/recipes/misc/ruby.json
@@ -47,6 +48,7 @@ b1708962a675ccf49e511c4f3f2a968f620c4cf2 data/tutorialmod/recipe/alexandrite_tra
 29b14efaf9f9afbcfc7a0522d48843c71dfda9ec data/tutorialmod/recipe/alexandrite_wall.json
 156ca729aeb5b8c12d639a2e7c560f23ac89bb63 data/tutorialmod/recipe/cup.json
 47d5aae470c26f357d5f1f6cc4c991768795378a data/tutorialmod/recipe/dog_treat.json
+d217172031c6e0e57ffb4794675db0dc37f1d73f data/tutorialmod/recipe/kaupen.json
 c85b1b2324076fa6197fcd0af06142cbddde2792 data/tutorialmod/recipe/raw_alexandrite.json
 36a5cedbaa3afb8d53a3dd9e1b9cfbe541e5be20 data/tutorialmod/recipe/raw_alexandrite_block.json
 dab59e1961f8fd3d3cfbac7d26ceb28c5afda264 data/tutorialmod/recipe/ruby.json
