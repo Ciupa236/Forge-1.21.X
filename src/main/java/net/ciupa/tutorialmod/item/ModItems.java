@@ -3,6 +3,7 @@ package net.ciupa.tutorialmod.item;
 import net.ciupa.tutorialmod.TutorialMod;
 import net.ciupa.tutorialmod.item.custom.ChiselItem;
 import net.ciupa.tutorialmod.item.custom.FuelItem;
+import net.ciupa.tutorialmod.item.custom.HammerItem;
 import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.*;
@@ -76,6 +77,9 @@ public class ModItems {
             () -> new PickaxeItem(Tiers.NETHERITE, new Item.Properties()
                     .attributes(PickaxeItem.createAttributes(Tiers.NETHERITE, 1, -2.8f))
                     .rarity(Rarity.EPIC)));
+    public static final RegistryObject<Item> ALEXANDRITE_HAMMER = ITEMS.register("alexandrite_hammer",
+            () -> new HammerItem(ModToolTiers.ALEXANDRITE, new Item.Properties()
+                    .attributes(HammerItem.createAttributes(ModToolTiers.ALEXANDRITE, 7, -3.5f))));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
