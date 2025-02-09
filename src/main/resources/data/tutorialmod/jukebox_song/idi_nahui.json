@@ -1,0 +1,8 @@
+{
+  "comparator_output": 15,
+  "description": {
+    "translate": "item.tutorialmod.idi_nahui_music_disc.desc"
+  },
+  "length_in_seconds": 11.0,
+  "sound_event": "tutorialmod:idi_nahui"
+}

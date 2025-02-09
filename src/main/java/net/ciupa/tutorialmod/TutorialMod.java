@@ -5,6 +5,7 @@ import net.ciupa.tutorialmod.block.ModBlocks;
 import net.ciupa.tutorialmod.component.ModDataComponentTypes;
 import net.ciupa.tutorialmod.item.ModCreativeModeTabs;
 import net.ciupa.tutorialmod.item.ModItems;
+import net.ciupa.tutorialmod.sound.ModSounds;
 import net.ciupa.tutorialmod.util.ModItemProperties;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
@@ -41,6 +42,7 @@ public class TutorialMod {
         ModBlocks.register(modEventBus);
 
         ModDataComponentTypes.register(modEventBus);
+        ModSounds.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
@@ -77,6 +79,8 @@ public class TutorialMod {
             event.accept(ModItems.ALEXANDRITE_HOE);
             event.accept(ModItems.ALEXANDRITE_HAMMER);
             event.accept(ModItems.GEM_REJUVENATOR);
+            event.accept(ModItems.BAR_BRAWL_MUSIC_DISC);
+            event.accept(ModItems.IDI_NAHUI_MUSIC_DISC);
         }
         if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
             event.accept(ModBlocks.ALEXANDRITE_BLOCK);

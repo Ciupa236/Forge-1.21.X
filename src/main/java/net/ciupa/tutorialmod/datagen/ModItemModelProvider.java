@@ -54,6 +54,8 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.RUBY.get());
         basicItem(ModItems.ALEXANDRITE_HORSE_ARMOR.get());
         basicItem(ModItems.KAUPEN_SMITHING_TEMPLATE.get());
+        basicItem(ModItems.BAR_BRAWL_MUSIC_DISC.get());
+        basicItem(ModItems.IDI_NAHUI_MUSIC_DISC.get());
 
         buttonItem(ModBlocks.ALEXANDRITE_BUTTON, ModBlocks.ALEXANDRITE_BLOCK);
         fenceItem(ModBlocks.ALEXANDRITE_FENCE, ModBlocks.ALEXANDRITE_BLOCK);

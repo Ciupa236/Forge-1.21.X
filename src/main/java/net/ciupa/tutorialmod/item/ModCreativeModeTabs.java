@@ -35,11 +35,6 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.ALEXANDRITE_LEGGINGS.get());
                         output.accept(ModItems.ALEXANDRITE_BOOTS.get());
                         output.accept(ModItems.ALEXANDRITE_HORSE_ARMOR.get());
-
-                        output.accept(ModItems.KAUPEN_BOW.get());
-
-                        output.accept(ModItems.KAUPEN_SMITHING_TEMPLATE.get());
-
                     }).build());
 
     public static final RegistryObject<CreativeModeTab> ALEXANDRITE_BLOCKS_TAB = CREATIVE_MODE_TABS.register("alexandrite_blocks_tab",
@@ -80,7 +75,12 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.DOG_TREAT.get());
                         output.accept(ModItems.AURORA_ASHES.get());
                         output.accept(ModItems.GEM_REJUVENATOR.get());
+                        output.accept(ModItems.KAUPEN_BOW.get());
 
+                        output.accept(ModItems.KAUPEN_SMITHING_TEMPLATE.get());
+
+                        output.accept(ModItems.BAR_BRAWL_MUSIC_DISC.get());
+                        output.accept(ModItems.IDI_NAHUI_MUSIC_DISC.get());
                     }).build());
 
 public static void register(IEventBus eventBus) {
