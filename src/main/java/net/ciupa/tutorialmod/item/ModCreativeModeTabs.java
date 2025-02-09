@@ -81,6 +81,8 @@ public class ModCreativeModeTabs {
 
                         output.accept(ModItems.BAR_BRAWL_MUSIC_DISC.get());
                         output.accept(ModItems.IDI_NAHUI_MUSIC_DISC.get());
+                        output.accept(ModItems.DE_CRACIUN_MUSIC_DISC.get());
+                        output.accept(ModItems.MEH_YEAT_MUSIC_DISC.get());
                     }).build());
 
 public static void register(IEventBus eventBus) {

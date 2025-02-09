@@ -37,6 +37,12 @@ public class ModSounds {
     public static final RegistryObject<SoundEvent> IDI_NAHUI = registerSoundEvent("idi_nahui");
     public static final ResourceKey<JukeboxSong> IDI_NAHUI_KEY = ResourceKey.create(Registries.JUKEBOX_SONG,
             ResourceLocation.fromNamespaceAndPath(TutorialMod.MOD_ID, "idi_nahui"));
+    public static final RegistryObject<SoundEvent> DE_CRACIUN = registerSoundEvent("de_craciun");
+    public static final ResourceKey<JukeboxSong> DE_CRACIUN_KEY = ResourceKey.create(Registries.JUKEBOX_SONG,
+            ResourceLocation.fromNamespaceAndPath(TutorialMod.MOD_ID, "de_craciun"));
+    public static final RegistryObject<SoundEvent> MEH_YEAT = registerSoundEvent("meh_yeat");
+    public static final ResourceKey<JukeboxSong> MEH_YEAT_KEY = ResourceKey.create(Registries.JUKEBOX_SONG,
+            ResourceLocation.fromNamespaceAndPath(TutorialMod.MOD_ID, "meh_yeat"));
 
     private static RegistryObject<SoundEvent> registerSoundEvent(String name) {
         return SOUND_EVENTS.register(name, () -> SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath(TutorialMod.MOD_ID, name)));

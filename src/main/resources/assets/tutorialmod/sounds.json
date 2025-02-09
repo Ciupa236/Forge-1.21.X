@@ -50,5 +50,21 @@
         "stream": true
       }
     ]
+  },
+  "de_craciun": {
+    "sounds": [
+      {
+        "name": "tutorialmod:de_craciun",
+        "stream": true
+      }
+    ]
+  },
+  "meh_yeat": {
+    "sounds": [
+      {
+        "name": "tutorialmod:meh_yeat",
+        "stream": true
+      }
+    ]
   }
 }

@@ -103,6 +103,10 @@ public class ModItems {
             () -> new Item(new Item.Properties().jukeboxPlayable(ModSounds.BAR_BRAWL_KEY).stacksTo(1)));
     public static final RegistryObject<Item> IDI_NAHUI_MUSIC_DISC = ITEMS.register("idi_nahui_music_disc",
             () -> new Item(new Item.Properties().jukeboxPlayable(ModSounds.IDI_NAHUI_KEY).stacksTo(1)));
+    public static final RegistryObject<Item> DE_CRACIUN_MUSIC_DISC = ITEMS.register("de_craciun_music_disc",
+            () -> new Item(new Item.Properties().jukeboxPlayable(ModSounds.DE_CRACIUN_KEY).stacksTo(1)));
+    public static final RegistryObject<Item> MEH_YEAT_MUSIC_DISC = ITEMS.register("meh_yeat_music_disc",
+            () -> new Item(new Item.Properties().jukeboxPlayable(ModSounds.MEH_YEAT_KEY).stacksTo(1)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

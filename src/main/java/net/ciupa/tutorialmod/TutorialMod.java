@@ -81,6 +81,8 @@ public class TutorialMod {
             event.accept(ModItems.GEM_REJUVENATOR);
             event.accept(ModItems.BAR_BRAWL_MUSIC_DISC);
             event.accept(ModItems.IDI_NAHUI_MUSIC_DISC);
+            event.accept(ModItems.DE_CRACIUN_MUSIC_DISC);
+            event.accept(ModItems.MEH_YEAT_MUSIC_DISC);
         }
         if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
             event.accept(ModBlocks.ALEXANDRITE_BLOCK);

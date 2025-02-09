@@ -1,0 +1,8 @@
+{
+  "comparator_output": 15,
+  "description": {
+    "translate": "item.tutorialmod.meh_yeat_music_disc.desc"
+  },
+  "length_in_seconds": 197.0,
+  "sound_event": "tutorialmod:meh_yeat"
+}

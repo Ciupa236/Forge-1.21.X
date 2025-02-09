@@ -1,4 +1,4 @@
-// 1.21	2025-02-09T19:37:18.0934903	Item Models: tutorialmod
+// 1.21	2025-02-09T22:19:33.9132409	Item Models: tutorialmod
 9c36309b9b22da0f2a38fda68096fcc3013c449b assets/tutorialmod/models/item/alexandrite.json
 073373f3fe2f1164adae1d7cdcb2e21c2c4c821e assets/tutorialmod/models/item/alexandrite_axe.json
 fab521949bb8b5526d5f1e145bf1b1dca7ea8e14 assets/tutorialmod/models/item/alexandrite_boots.json
@@ -59,10 +59,12 @@ b9a62ed3fc1c7a5a754d17fb335771f6cfa7112d assets/tutorialmod/models/item/alexandr
 746f8b9f9a185def86d784662f32a8c23fbe2296 assets/tutorialmod/models/item/baby_oil.json
 f746b64540daf2ab6302b3ec01a78490c48fc10b assets/tutorialmod/models/item/bar_brawl_music_disc.json
 fecaa64eaa5d66b947685352fef49c2e7ee90591 assets/tutorialmod/models/item/cup.json
+5e32d472cfc70a536ed1ffc463f037ffbce33ab1 assets/tutorialmod/models/item/de_craciun_music_disc.json
 530872ecb07a5ca95ad7fb37ffdb0f5be31b9282 assets/tutorialmod/models/item/dog_treat.json
 48e5686f479510702af83ba4b306456723960cde assets/tutorialmod/models/item/gem_rejuvenator.json
 2d83523e8fa719532350052e724bf49e3922a0b4 assets/tutorialmod/models/item/idi_nahui_music_disc.json
 449182fb0ac0479cfb756ef062a8c183fc5a3c2a assets/tutorialmod/models/item/kaupen_armor_trim_smithing_template.json
 35fc7dc4a05adc5b9d9bec5dfe1468735a1cc001 assets/tutorialmod/models/item/kohlrabi.json
+c711a60c52441d02d6f7acba703a627359525d4f assets/tutorialmod/models/item/meh_yeat_music_disc.json
 618bcb87cb7acab7c54afbe2ed857af447c05872 assets/tutorialmod/models/item/raw_alexandrite.json
 d07fad06b4e5a92363d8d18e034dbd6a8641d34d assets/tutorialmod/models/item/ruby.json
