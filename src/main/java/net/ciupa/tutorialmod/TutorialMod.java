@@ -105,6 +105,7 @@ public class TutorialMod {
             event.accept(ModItems.ALEXANDRITE_LEGGINGS.get());
             event.accept(ModItems.ALEXANDRITE_BOOTS.get());
             event.accept(ModItems.ALEXANDRITE_HORSE_ARMOR.get());
+            event.accept(ModItems.KAUPEN_BOW);
             event.accept(ModItems.GEM_REJUVENATOR);
 
         }

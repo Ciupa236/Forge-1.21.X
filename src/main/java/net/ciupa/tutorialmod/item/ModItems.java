@@ -1,10 +1,7 @@
 package net.ciupa.tutorialmod.item;
 
 import net.ciupa.tutorialmod.TutorialMod;
-import net.ciupa.tutorialmod.item.custom.ChiselItem;
-import net.ciupa.tutorialmod.item.custom.FuelItem;
-import net.ciupa.tutorialmod.item.custom.HammerItem;
-import net.ciupa.tutorialmod.item.custom.ModArmorItem;
+import net.ciupa.tutorialmod.item.custom.*;
 import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
@@ -76,8 +73,8 @@ public class ModItems {
             () -> new HoeItem(ModToolTiers.ALEXANDRITE, new Item.Properties()
                     .attributes(HoeItem.createAttributes(ModToolTiers.ALEXANDRITE, 0, -3.0f))));
     public static final RegistryObject<Item> GEM_REJUVENATOR = ITEMS.register("gem_rejuvenator",
-            () -> new PickaxeItem(Tiers.NETHERITE, new Item.Properties()
-                    .attributes(PickaxeItem.createAttributes(Tiers.NETHERITE, 1, -2.8f))
+            () -> new SwordPickItem(Tiers.NETHERITE, new Item.Properties()
+                    .attributes(SwordPickItem.createAttributes(Tiers.NETHERITE, 1, -2.8f))
                     .rarity(Rarity.EPIC)));
     public static final RegistryObject<Item> ALEXANDRITE_HAMMER = ITEMS.register("alexandrite_hammer",
             () -> new HammerItem(ModToolTiers.ALEXANDRITE, new Item.Properties()
@@ -99,6 +96,8 @@ public class ModItems {
                     false, new Item.Properties().stacksTo(1)));
     public static final RegistryObject<Item> KAUPEN_SMITHING_TEMPLATE = ITEMS.register("kaupen_armor_trim_smithing_template",
             () -> SmithingTemplateItem.createArmorTrimTemplate(ResourceLocation.fromNamespaceAndPath(TutorialMod.MOD_ID, "kaupen")));
+    public static final RegistryObject<Item> KAUPEN_BOW = ITEMS.register("kaupen_bow",
+            () -> new BowItem(new Item.Properties().durability(500)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
