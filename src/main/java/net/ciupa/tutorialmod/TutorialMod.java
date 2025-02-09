@@ -2,8 +2,10 @@ package net.ciupa.tutorialmod;
 
 import com.mojang.logging.LogUtils;
 import net.ciupa.tutorialmod.block.ModBlocks;
+import net.ciupa.tutorialmod.component.ModDataComponentTypes;
 import net.ciupa.tutorialmod.item.ModCreativeModeTabs;
 import net.ciupa.tutorialmod.item.ModItems;
+import net.ciupa.tutorialmod.util.ModItemProperties;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -37,6 +39,8 @@ public class TutorialMod {
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+
+        ModDataComponentTypes.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
@@ -117,7 +121,7 @@ public class TutorialMod {
     public static class ClientModEvents {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
-
+            ModItemProperties.addCustomItemProperties();
         }
     }
 }

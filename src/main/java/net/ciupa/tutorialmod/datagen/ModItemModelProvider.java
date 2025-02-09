@@ -48,7 +48,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.CUP.get());
         basicItem(ModItems.AURORA_ASHES.get());
         basicItem(ModItems.BABY_OIL.get());
-        basicItem(ModItems.CHISEL.get());
+        // basicItem(ModItems.CHISEL.get());
         basicItem(ModItems.DOG_TREAT.get());
         basicItem(ModItems.KOHLRABI.get());
         basicItem(ModItems.RUBY.get());
