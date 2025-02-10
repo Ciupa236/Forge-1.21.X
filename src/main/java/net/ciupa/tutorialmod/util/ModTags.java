@@ -13,6 +13,9 @@ public class ModTags {
         public static final TagKey<Block> NEEDS_ALEXANDRITE_TOOL = createTag("needs_alexandrite_tool");
         public static final TagKey<Block> INCORRECT_FOR_ALEXANDRITE_TOOL = createTag("incorrect_for_alexandrite_tool");
 
+        public static final TagKey<Block> NEEDS_REJUVENATOR_TOOL = createTag("needs_rejuvenator_tool");
+        public static final TagKey<Block> INCORRECT_FOR_REJUVENATOR_TOOL = createTag("incorrect_for_rejuvenator_tool");
+
         private static TagKey<Block> createTag(String name) {
             return BlockTags.create(ResourceLocation.fromNamespaceAndPath(TutorialMod.MOD_ID, name));
         }

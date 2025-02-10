@@ -74,8 +74,8 @@ public class ModItems {
             () -> new HoeItem(ModToolTiers.ALEXANDRITE, new Item.Properties()
                     .attributes(HoeItem.createAttributes(ModToolTiers.ALEXANDRITE, 0, -3.0f))));
     public static final RegistryObject<Item> GEM_REJUVENATOR = ITEMS.register("gem_rejuvenator",
-            () -> new SwordPickItem(Tiers.NETHERITE, new Item.Properties()
-                    .attributes(SwordPickItem.createAttributes(Tiers.NETHERITE, 1, -2.8f))
+            () -> new RejuvenatorItem(ModToolTiers.REJUVENATOR, new Item.Properties()
+                    .attributes(RejuvenatorItem.createAttributes(ModToolTiers.REJUVENATOR, 4, -2.0f))
                     .rarity(Rarity.EPIC)));
     public static final RegistryObject<Item> ALEXANDRITE_HAMMER = ITEMS.register("alexandrite_hammer",
             () -> new HammerItem(ModToolTiers.ALEXANDRITE, new Item.Properties()

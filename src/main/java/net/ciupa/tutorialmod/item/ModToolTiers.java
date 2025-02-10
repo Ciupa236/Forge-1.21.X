@@ -9,4 +9,8 @@ public class ModToolTiers {
     public static final Tier ALEXANDRITE = new ForgeTier(1400, 4, 3f, 20,
             ModTags.Blocks.NEEDS_ALEXANDRITE_TOOL, () -> Ingredient.of(ModItems.ALEXANDRITE.get()),
             ModTags.Blocks.INCORRECT_FOR_ALEXANDRITE_TOOL);
+
+    public static final Tier REJUVENATOR = new ForgeTier(4096, 13, 5f, 25,
+            ModTags.Blocks.NEEDS_REJUVENATOR_TOOL, () -> Ingredient.of(ModItems.RUBY.get()),
+            ModTags.Blocks.INCORRECT_FOR_REJUVENATOR_TOOL);
 }

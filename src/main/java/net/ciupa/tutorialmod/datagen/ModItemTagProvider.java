@@ -14,8 +14,6 @@ import org.jetbrains.annotations.Nullable;
 
 import java.util.concurrent.CompletableFuture;
 
-import static net.ciupa.tutorialmod.Config.items;
-
 public class ModItemTagProvider extends ItemTagsProvider {
     public ModItemTagProvider(PackOutput packOutput, CompletableFuture<HolderLookup.Provider> completableFuture,
                               CompletableFuture<TagLookup<Block>> lookupCompletableFuture, @Nullable ExistingFileHelper existingFileHelper) {
@@ -42,5 +40,26 @@ public class ModItemTagProvider extends ItemTagsProvider {
 
         tag(ItemTags.TRIM_TEMPLATES)
                 .add(ModItems.KAUPEN_SMITHING_TEMPLATE.get());
+
+        tag(ItemTags.SWORDS)
+                .add(ModItems.ALEXANDRITE_SWORD.get())
+                .add(ModItems.GEM_REJUVENATOR.get());
+
+        tag(ItemTags.PICKAXES)
+                .add(ModItems.ALEXANDRITE_PICKAXE.get())
+                .add(ModItems.ALEXANDRITE_HAMMER.get())
+                .add(ModItems.GEM_REJUVENATOR.get());
+
+        tag(ItemTags.AXES)
+                .add(ModItems.ALEXANDRITE_AXE.get());
+
+        tag(ItemTags.SHOVELS)
+                .add(ModItems.ALEXANDRITE_SHOVEL.get());
+
+        tag(ItemTags.HOES)
+                .add(ModItems.ALEXANDRITE_HOE.get());
+
+        tag(ItemTags.BOW_ENCHANTABLE)
+                .add(ModItems.KAUPEN_BOW.get());
     }
 }
