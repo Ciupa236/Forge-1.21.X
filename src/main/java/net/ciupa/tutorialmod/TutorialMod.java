@@ -3,8 +3,10 @@ package net.ciupa.tutorialmod;
 import com.mojang.logging.LogUtils;
 import net.ciupa.tutorialmod.block.ModBlocks;
 import net.ciupa.tutorialmod.component.ModDataComponentTypes;
+import net.ciupa.tutorialmod.effect.ModEffects;
 import net.ciupa.tutorialmod.item.ModCreativeModeTabs;
 import net.ciupa.tutorialmod.item.ModItems;
+import net.ciupa.tutorialmod.potion.ModPotions;
 import net.ciupa.tutorialmod.sound.ModSounds;
 import net.ciupa.tutorialmod.util.ModItemProperties;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -43,6 +45,9 @@ public class TutorialMod {
 
         ModDataComponentTypes.register(modEventBus);
         ModSounds.register(modEventBus);
+
+        ModEffects.register(modEventBus);
+        ModPotions.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);

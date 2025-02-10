@@ -38,6 +38,10 @@
   "item.tutorialmod.meh_yeat_music_disc": "Meh Yeat Music Disc",
   "item.tutorialmod.meh_yeat_music_disc.desc": "Meh Yeat - Deniz Sevki",
 
+  "item.minecraft.potion.effect.slimey_potion": "Slimey Potion",
+  "item.minecraft.splash_potion.effect.slimey_potion": "Slimey Splash Potion",
+  "item.minecraft.lingering_potion.effect.slimey_potion": "Slimey Lingering Potion",
+
   "block.tutorialmod.alexandrite_block": "Block of Alexandrite",
   "block.tutorialmod.raw_alexandrite_block": "Block of Raw Alexandrite",
   "block.tutorialmod.alexandrite_ore": "Alexandrite Ore",
@@ -82,5 +86,28 @@
   "tooltip.tutorialmod.dog_treat.shift_down": "Consuming it gives Speed II for 30 seconds and Regeneration II for 15 seconds",
 
   "trim_pattern.tutorialmod.kaupen": "Kaupen Armor Trim",
-  "trim_material.tutorialmod.alexandrite": "Alexandrite Material"
+  "trim_material.tutorialmod.alexandrite": "Alexandrite Material",
+
+  "effect.tutorialmod.slimey": "Slimey",
+
+  "painting.tutorialmod.world.title": "World",
+  "painting.tutorialmod.world.author": "NanoAttack",
+  "painting.tutorialmod.shrimp.title": "Shrimp",
+  "painting.tutorialmod.shrimp.author": "NanoAttack",
+  "painting.tutorialmod.saw_them.title": "Saw Them",
+  "painting.tutorialmod.saw_them.author": "NanoAttack",
+  "painting.tutorialmod.octeabrina.title": "Octeabrina",
+  "painting.tutorialmod.octeabrina.author": "Ciupa236",
+  "painting.tutorialmod.amintiri.title": "Amintiri",
+  "painting.tutorialmod.amintiri.author": "Ciupa236",
+  "painting.tutorialmod.bomj.title": "Bomj",
+  "painting.tutorialmod.bomj.author": "Ciupa236",
+  "painting.tutorialmod.cleopatra.title": "Cleopatra",
+  "painting.tutorialmod.cleopatra.author": "Ciupa236",
+  "painting.tutorialmod.hitler.title": "Hitler",
+  "painting.tutorialmod.hitler.author": "Ciupa236",
+  "painting.tutorialmod.vapeuri.title": "Vapeuri",
+  "painting.tutorialmod.vapeuri.author": "Ciupa236",
+  "painting.tutorialmod.vikea.title": "Vikea",
+  "painting.tutorialmod.vikea.author": "Ciupa236"
 }
