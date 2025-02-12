@@ -4,12 +4,15 @@ import com.mojang.logging.LogUtils;
 import net.ciupa.tutorialmod.block.ModBlocks;
 import net.ciupa.tutorialmod.component.ModDataComponentTypes;
 import net.ciupa.tutorialmod.effect.ModEffects;
+import net.ciupa.tutorialmod.enchantment.ModEnchantmentEffects;
 import net.ciupa.tutorialmod.item.ModCreativeModeTabs;
 import net.ciupa.tutorialmod.item.ModItems;
 import net.ciupa.tutorialmod.potion.ModPotions;
 import net.ciupa.tutorialmod.sound.ModSounds;
 import net.ciupa.tutorialmod.util.ModItemProperties;
 import net.minecraft.world.item.CreativeModeTabs;
+import net.minecraft.world.level.block.ComposterBlock;
+import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -49,6 +52,8 @@ public class TutorialMod {
         ModEffects.register(modEventBus);
         ModPotions.register(modEventBus);
 
+        ModEnchantmentEffects.register(modEventBus);
+
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
         // Register our mod's ForgeConfigSpec so that Forge can create and load the config file for us
@@ -56,7 +61,10 @@ public class TutorialMod {
     }
 
     private void commonSetup(final FMLCommonSetupEvent event) {
-
+        event.enqueueWork(() -> {
+            ComposterBlock.COMPOSTABLES.put(ModItems.KOHLRABI.get(), .04f);
+            ComposterBlock.COMPOSTABLES.put(ModItems.KOHLRABI_SEEDS.get(), .15f);
+        });
     }
 
     // Add the example block item to the building blocks tab
@@ -104,6 +112,7 @@ public class TutorialMod {
         }
         if(event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
             event.accept(ModBlocks.RAW_ALEXANDRITE_BLOCK);
+            event.accept(ModItems.KOHLRABI_SEEDS);
         }
         if(event.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {
             event.accept(ModBlocks.MAGIC_BLOCK);

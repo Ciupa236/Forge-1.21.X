@@ -72,6 +72,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.CUP.get());
                         output.accept(ModItems.BABY_OIL.get());
                         output.accept(ModItems.KOHLRABI.get());
+                        output.accept(ModItems.KOHLRABI_SEEDS.get());
                         output.accept(ModItems.DOG_TREAT.get());
                         output.accept(ModItems.AURORA_ASHES.get());
                         output.accept(ModItems.GEM_REJUVENATOR.get());

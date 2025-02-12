@@ -1,6 +1,7 @@
 package net.ciupa.tutorialmod.item;
 
 import net.ciupa.tutorialmod.TutorialMod;
+import net.ciupa.tutorialmod.block.ModBlocks;
 import net.ciupa.tutorialmod.item.custom.*;
 import net.ciupa.tutorialmod.sound.ModSounds;
 import net.minecraft.client.gui.screens.Screen;
@@ -107,6 +108,9 @@ public class ModItems {
             () -> new Item(new Item.Properties().jukeboxPlayable(ModSounds.DE_CRACIUN_KEY).stacksTo(1)));
     public static final RegistryObject<Item> MEH_YEAT_MUSIC_DISC = ITEMS.register("meh_yeat_music_disc",
             () -> new Item(new Item.Properties().jukeboxPlayable(ModSounds.MEH_YEAT_KEY).stacksTo(1)));
+    public static final RegistryObject<Item> KOHLRABI_SEEDS = ITEMS.register("kohlrabi_seeds",
+            () -> new ItemNameBlockItem(ModBlocks.KOHLRABI_CROP.get(), new Item.Properties()));
+
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

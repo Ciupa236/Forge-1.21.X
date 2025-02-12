@@ -58,6 +58,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.IDI_NAHUI_MUSIC_DISC.get());
         basicItem(ModItems.DE_CRACIUN_MUSIC_DISC.get());
         basicItem(ModItems.MEH_YEAT_MUSIC_DISC.get());
+        basicItem(ModItems.KOHLRABI_SEEDS.get());
 
         buttonItem(ModBlocks.ALEXANDRITE_BUTTON, ModBlocks.ALEXANDRITE_BLOCK);
         fenceItem(ModBlocks.ALEXANDRITE_FENCE, ModBlocks.ALEXANDRITE_BLOCK);
